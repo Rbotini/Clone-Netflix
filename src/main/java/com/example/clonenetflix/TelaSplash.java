@@ -17,7 +17,7 @@ public class TelaSplash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(TelaSplash.this,MainActivity.class);
+                Intent intent = new Intent(TelaSplash.this,Home.class);
                 startActivity(intent);
             }
         },7000);
