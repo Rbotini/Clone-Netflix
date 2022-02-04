@@ -20,7 +20,7 @@ public class TelaSplash extends AppCompatActivity {
                 Intent intent = new Intent(TelaSplash.this,MainActivity.class);
                 startActivity(intent);
             }
-        },5000);
+        },7000);
 
 
     }
